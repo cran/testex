@@ -8,6 +8,11 @@
 > in documentation files may fail if interface changes.
 >
 
+# testex 0.2.1
+
+* Updated internals to be compatible with the next version of `testthat`
+  following `v3.2.3`. (@dgkf #12)
+
 # testex 0.2.0
 
 ## Breaking Changes
@@ -25,7 +30,7 @@
   ```
 
   This syntax is intended to be more resilient to changes to keep your
-  tests from relying to heavily on an unchanging `testex` function interface.
+  tests from relying too heavily on an unchanging `testex` function interface.
 
 ## New Features
 
